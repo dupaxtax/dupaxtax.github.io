@@ -1,6 +1,6 @@
 function onHover(image)
 {
-    image.src  = "./images/Tanner_Dupaix.jpg"
+    image.src  = "./images/Tanner_Dupaix_WM.jpg"
 }
 
 function offHover(image)
