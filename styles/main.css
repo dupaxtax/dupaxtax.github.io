@@ -13,33 +13,20 @@ h2 {
     padding-left: 1em;
 }
 
-p {
-    text-align: left;
-    padding-left: 1em;
+button {
+    margin: 1em;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input[type=text] {
+    width: 2.5em;
+    height: 2.5em;
 }
 
 #tanner-picture {
     width: 20vw;
     height: 50vh;
-}
-
-li{
-    list-style: none;
-    display: inline-block;
-    float: left;
-    line-height: 5vh;
-}
-
-li a{
-    text-decoration: none;
-    padding: 1em;
-    color: #3e8eec;
-}
-
-nav{
-    margin: 0em;
-    padding: 0em;
-    width: 100%;
-    height: 5vh;
-    display: inline-block;
 }
