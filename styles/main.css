@@ -7,17 +7,6 @@ body {
     background-color: #28292a;
 }
 
-h2 {
-    text-align: left;
-    font-family: "Arial";
-    padding-left: 1em;
-}
-
-p {
-    text-align: left;
-    padding-left: 1em;
-}
-
 #tanner-picture {
     width: 20vw;
     height: 50vh;
