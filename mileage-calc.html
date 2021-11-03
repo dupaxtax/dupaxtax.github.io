@@ -4,7 +4,7 @@
             <link rel="stylesheet" href="styles/main.css">
             <title>Tanner Dupaix</title>
             <script src="components/header.js" defer></script>
-            <script src="components/calculator.js" defer></script>
+            <script src="scripts/mileagecalc.js" defer></script>
         </head>
         <body>
             <header-component></header-component>
@@ -12,7 +12,9 @@
                 <h1>Mileage Calculator</h1>
                 <label for="total-miles">Monthly Total</label> 
                 <input type="text" id="total-miles" name="total-miles"><br>
-                <button type="button">Daily</button>
+                <label for="num-days">Number of Running Days</label>
+                <input type="text" id="num-days" name="num-days"><br>
+                <button type="button" onclick="calcDaily();">Daily</button>
             </main>
         </body>
     </html>
