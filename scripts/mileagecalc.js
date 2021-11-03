@@ -5,5 +5,6 @@ function calcDaily(){
     console.log(monthly);
     console.log(numDays);
     daily = monthly / 10;
-    console.log(daily)
+
+    document.getElementById("daily-avg").innerHTML = daily
 }
